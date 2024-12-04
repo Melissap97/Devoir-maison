@@ -5,7 +5,7 @@ export class CompteBancaire {
      this.#solde += montant; 
     }
     retirer(montant){
-        if (this.#solde >+ 0){
+        if (this.#solde >= montant){
     this.#solde -= montant;
      }
      }
